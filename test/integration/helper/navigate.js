@@ -13,10 +13,11 @@
 // You should have received a copy of the GNU General Public License
 // along with pa11y-dashboard.  If not, see <http://www.gnu.org/licenses/>.
 
+// jscs:disable requireArrowFunctions
 'use strict';
 
-var cheerio = require('cheerio');
-var request = require('request');
+const cheerio = require('cheerio');
+const request = require('request');
 
 module.exports = createNavigator;
 
